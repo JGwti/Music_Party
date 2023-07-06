@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <h1>Rock & EDM Festival</h1>
+
+            <nav class="navegacion-principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="contenedor contenido-video">
+                <h2>Rock & EMD Festival</h2>
+                <p>Junio 2023, Tunja, Colombia</p>
+            </div>
+        </div>
+        <video autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="contenedor sobre-festival">
+        <picture>
+            <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+            <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+            <img loading="lazy" width="200" height="300" src="build/img/imagen_vocalista.jpg" alt="Imagen vocalista">
+        </picture>
+
+        <div class="contenido-festival">
+            <h2>Rock & EDM festival</h2>
+            <p class="fecha">Junio 2023, Tunja, Colombia</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid earum atque optio distinctio non
+                debitis perspiciatis doloribus praesentium temporibus delectus, velit nam ullam iste eaque repudiandae
+                soluta quis! Saepe, itaque!</p>
+        </div>
+    </section>
+
+    <section id="lineup" class="lineup">
+        <h3>Line Up</h3>
+
+        <p class="dia">
+            Viernes 21
+        </p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        14:00 | <span>Los De Adentro</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Soda Stereo</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Caifanes</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Hombres G</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Vilma Palma E Vampiros</span>
+                    </li>
+                </ul>
+
+            </div><!-- .escenario-->
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        19:00 | <span>LMFAO</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Black Eyed Peas</span>
+                    </li>
+                    <li>
+                        21:00 | <span>David Guetta</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Bruno Mars</span>
+                    </li>
+                    <li>
+                        23:00 | <span>PSY</span>
+                    </li>
+                </ul>
+
+            </div><!-- .escenario-->
+
+        </div><!-- .escenario-->
+
+        <p class="dia">
+            Sabado 22
+        </p>
+        <div class="escenarios-contenedor contenedor">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+                <ul class="calendario">
+                    <li>
+                        14:00 | <span>Tierra Santa</span>
+                    </li>
+                    <li>
+                        15:00 | <span>Stravaganzza</span>
+                    </li>
+                    <li>
+                        16:00 | <span>Kraken </span>
+                    </li>
+                    <li>
+                        17:00 | <span>Rata Blanca</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Mago de Oz</span>
+                    </li>
+                </ul>
+
+            </div><!-- .escenario-->
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDM</p>
+                <ul class="calendario">
+                    <li>
+                        19:00 | <span>Shaggy</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Katty perry</span>
+                    </li>
+                    <li>
+                        21:00 | <span>Rihanna</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Lady Gaga</span>
+                    </li>
+                    <li>
+                        23:00 | <span>Colplay</span>
+                    </li>
+                </ul>
+            </div><!-- .escenario-->
+        </div><!-- .escenario-->
+
+    </section>
+
+    <section id="galeria" class="galeria contenedor">
+            <h3>Galería</h3>
+
+            <ul class="galerias-imagenes"></ul>
+
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+
+        <div class="contenedor contenido-boletos">
+            <div class="basico pase">
+                <p class="nombre-pase">Pase 1 Día</p>
+
+                <header class="pase-header">
+                    <p>Incluye</p>
+
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>
+                            Acceso a ambos escenarios
+                        </li>
+                        <li>
+                            Comida y bebida
+                        </li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>100</p>
+                </footer>
+            </div>
+            <div class="premium pase">
+                <p class="nombre-pase">Pase 2 Día</p>
+
+                <header class="pase-header">
+                    <p>Incluye</p>
+
+                </header>
+                <div class="pase-body">
+                    <ul>
+                        <li>
+                            Acceso a ambos escenarios
+                        </li>
+                        <li>
+                            Comida y Bebida
+                        </li>
+                        <li>
+                            Camisa del evento
+                        </li>
+                        <li>
+                            Acceso VIP
+                        </li>
+                    </ul>
+                </div>
+                <footer class="pase-footer">
+                    <p>180</p>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>Rock & EDM Festival.Todos los derechos de autor reservados</p>
+    </footer>
+    <script src="build/js/app.js"></script>
+</body>
+
+</html>
