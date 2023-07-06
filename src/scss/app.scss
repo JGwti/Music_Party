@@ -1,0 +1,11 @@
+// forma anterior
+//@import 'base/variables';
+//@import 'contenido/contenido';
+
+//nueva forma USE and Forward ''
+@use 'base';
+@use 'layout';
+
+
+
+
